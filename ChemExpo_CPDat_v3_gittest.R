@@ -23,6 +23,8 @@ setwd(workingdir)
 options(stringsAsFactors = FALSE)
 options(scipen=999)
 
+#not for real things!
+
 
 ## Combined MC+E/P+ER list of BC-relevant chemicals created in 3_BCrelevant_chem_effects.R
 BCrelList <- read.csv("outputs/BCRelList.csv") 
